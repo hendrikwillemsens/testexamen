@@ -1,0 +1,11 @@
+= already in 1NF
+
+2NF: 
+
+staff(*staffNo*, dentistName)
+pt(*ptNo*, ptname,surgeryNo)
+rest(*staffno*,*appdate*, *app time*)
+ 
+
+3NF
+
