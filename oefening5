@@ -1,0 +1,9 @@
+excercise 5
+
+1) $mongoimport zips.json
+2) ok
+3) geen idee
+4) db.restaurants.find({borough:"Bronx"}).limit(1).skip(1);
+5) db.restaurants.find({'grades.score':{$gt:90}});
+6) db.restaurants.find({'address.coord.1':{$gt:70}},{'address.coord.0':{$lt:-65}});?..?
+7) db.restaurants.find({borough:"Bronx"},{$or:[{cuisine:"American"},{cuisine:"Chinese"}]}); ????
