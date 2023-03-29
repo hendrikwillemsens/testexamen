@@ -7,3 +7,5 @@ excercise 5
 5) db.restaurants.find({'grades.score':{$gt:90}});
 6) db.restaurants.find({'address.coord.1':{$gt:70}},{'address.coord.0':{$lt:-65}});?..?
 7) db.restaurants.find({borough:"Bronx"},{$or:[{cuisine:"American"},{cuisine:"Chinese"}]}); ????
+11)db.restaurants.find({"grades.0":{date: ISODate("2014-08-11T00:00:00Z"), grade:"A", score:11}});
+12)  db.restaurants.find().sort({cuisine:1},{borough:1});
